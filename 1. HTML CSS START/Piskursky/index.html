@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang=ru>
+    <head>
+        <title>DixiCraft</title>
+        <meta charset=utf-8>
+        <meta name=keywords content='Майнкрафт, Сервера, Сервер, Моды, Мод, Мультиплеер, Донат, Донаты, Dixi, Craft, DixiCraft, Minecraft'>
+        <meta name=description content='Пока хз описание'>
+        <link rel=stylesheet type=text/css href="css/style.css" >
+        <link rel=stylesheet href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <img src=img/logo.svg width=150px>
+            <div class=menu>
+                <a id=home class=act href=#>Главная</a>
+                <a id=forum href=#>Форум</a>
+                <a id=donate href=#>Донат</a>
+                <a id=shop href=#>Магазин</a>
+                <a id=ban-list href=#>Бан-лист</a>
+                <a id=rules href=#>Правила</a>
+                <a id=help href=#>Помощь</a>
+            </div>
+        </header>
+        <div class=content>
+            <div class=left_side>
+                <div class='border_container article'>
+                    <h2>Появилась информация о разработке сайта DixiCraft</h2>
+                    <div id=time>13.01.2021 21:51</div>
+                    <img src=img/test.png width=100%>
+                    <p>Вчера, от неизвестного источника появилась важная информация по разработке сайта DixiCraft. Судя по информации, сайт будет минималистичным и красивым.</p>
+                </div>
+            </div>
+            <div class=right_side>
+                <a id=play href=#>Играть!</a>
+                <div id=separator></div>
+                <div class='border_container auth'>
+                    <h2>Вход</h2>
+                    <form>
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input class=input_text name=login placeholder=Логин> <br>
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <input class=input_text name=password type=password placeholder=Пароль> <br>
+                        <a href=#>Забыли пароль?</a><br>
+                        <input name=save type=checkbox> Запомнить меня
+                        <div id=separator></div>
+                        <input class=btn type=submit value=Войти>
+                        
+                        <a class=btn href=#>Регистрация</a>
+                    </form>
+                </div>
+                <div id=separator></div>
+                <div class='border_container sale'>
+                    <div>
+                        <h2>Скидка дня</h2>
+                        <div class='border_container sale_box'>
+                            Каменная мотыга<br>
+                            Сервер GalaxyTech<br><br>
+                            <img src=img/mot.png width=75px><br>
+                            <s>1.30 руб.</s><br>
+                            <b>0.90 руб.</b>
+                        </div><br>
+                        <form>
+                            <input name=amount class=input_text placeholder='0 шт.'><br>
+                             <input class=btn type=submit onkeyup="this.value=parseInt(this.value) | 0;" value='Купить по скидке'>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
