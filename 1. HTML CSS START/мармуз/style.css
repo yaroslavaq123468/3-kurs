@@ -1,0 +1,14 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+.header{
+    height: 200px;
+    background-color: blue
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color: chartreuse;
+    
+}
