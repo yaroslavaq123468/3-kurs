@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&family=Shadows+Into+Light&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+body {
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+	margin:00;
+	padding: 00;
+}
+.container {
+	width: 1366px;
+	margin: 0 auto;    
+    
+}
+.slider {
+	height: 800px;
+	background-image: url(Fon1.png);
+}
+.header {
+    width: 1366px;
+    height: 90px;
+    background: transparent;
+}
+.logo {
+    position: relative;
+    top: 64px;
+    left: 98px;
+}
+.menu-list {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    line-height: 48px;
+    text-align: right;
+    color: #8c8c8c;
+}
+
+.menu-link {
+	color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    left: 800px;
+    top: 32px;
+    right: 444px;
+}
+
+.menu-link-a {
+	color: #212121;    
+    font-family: montserrat;
+    font-weight: 300;
+}
+.slyder-trending {
+    font-family: montserrat;
+	color: #43a047;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 470.34px;
+    height: 43.8px;
+    background: transparent;
+    position: relative;
+    left: 98px;
+    top: 306px;
+
+}
+.slyder-content {
+    font-family: montserrat;
+	color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 470.34px;
+    height: 234.32px;
+    background: transparent;
+    position: relative;
+    left: 98px;
+    top: 306px;
+}
+.slyder-h2 {
+    font-family: montserrat;
+	color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    position: relative;
+    left: 98px;
+    top: 280px;
+}
+.button {
+    font-family: montserrat;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: white;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 98px;
+    top: 150px;
+}
+.navigation{
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    position: relative;
+    left: 580px;
+    top: 260px;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+}
+.circle-a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+}
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+}
+.button-search{
+    position: relative;
+    left: 1176px;
+    top: 0px;
+    border: 0px;
+}
