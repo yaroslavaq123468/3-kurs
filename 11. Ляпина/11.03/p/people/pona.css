@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+}
+.kopat{
+height: 27.18px;
+background: transparent;
+margin-top: 63px;
+margin-left: 98px;
+margin-bottom: 13px;
+}
+.menu clearfix{
+padding-left: 414px;
+padding-top: 61px;
+}
+.menu-list{
+    list-style-type: none;
+    float: left;
+    
+}
+.menu-link{
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 13px;
+}
+.menu-link-a{
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    padding-top: 63px;
+}
+.uop{
+font-family: Montserrat-Bold;
+font-weight: normal;
+font-size: 17.99px;
+letter-spacing: 0.1em;
+line-height: 21.59px;
+text-align: center;
+color: #6c6c6c;
+margin-top: 61px;
+padding-left: 377px;
+padding-top: 121px;
+}
+.polana{
+margin-top: 15px;
+height: 50px;
+background-color: gainsboro;
+}
+.kopata{
+    margin-top: 72px;
+}
+.hopa-na{
+width: 569.79px;
+height: 77.89px;
+font-family: Montserrat-Bold;
+font-weight: normal;
+font-size: 35.98px;
+line-height: 43.18px;
+text-align: center;
+color: #212121;
+
+padding-left: 698px;
+}
+.polka{
+margin-top: 10px;
+}
+.hopa{
+width: 569.79px;
+height: 42.75px;
+background: transparent;
+}
+.header-but{
+width: 510px;
+height: 70px;
+border-radius: 35px;
+background: #f44336;
+box-shadow: 0px 2px 5px rgba(33, 33, 33, 0.35);
+}
+.my{
+font-family: Montserrat-Bold;
+font-weight: normal;
+font-size: 21.99px;
+letter-spacing: 0.2em;
+line-height: 24px;
+text-align: center;
+color: #fff;
+}
+.poj{
+width: 470.34px;
+height: 86.63px;
+font-family: Montserrat-Bold;
+font-weight: normal;
+font-size: 36px;
+line-height: 43.2px;
+text-align: left;
+color: #212121;
+margin-left: 98px;
+}
+.golop{
+    margin-top: 221px;
+}
+.kola{
+width: 163.55px;
+height: 24px;
+background: transparent;
+margin-left: 520px;
+}
+.kir{
+    margin-top: 19px;
+    margin-left: 97px;
+}
