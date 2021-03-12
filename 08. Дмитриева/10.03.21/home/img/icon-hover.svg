@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63" height="63" viewBox="0 0 63 63">
+  <defs>
+    <filter id="back" x="0" y="0" width="63" height="63" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#212121" flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon-hover" transform="translate(-201.5 -1075.5)">
+    <g transform="matrix(1, 0, 0, 1, 201.5, 1075.5)" filter="url(#back)">
+      <circle id="back-2" data-name="back" cx="24" cy="24" r="24" transform="translate(7.5 5.5)" fill="#fff"/>
+    </g>
+    <path id="arrow" d="M229.294,1115l9.68-10-9.68-10-2.307,2.344L234.4,1105l-7.412,7.656Z" fill="#212121"/>
+  </g>
+</svg>
