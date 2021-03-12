@@ -1,10 +1,58 @@
-*{
-    margin: 0
-
+.container {
+    width: 1366px;
+    height: 1400px;
+    margin: 0 auto;
 }
 
-body{
-    height: 2307px;
+@font-face {
+    font-family: "MM"; 
+    src: url("font/MM.ttf");
+}
+@font-face {
+    font-family: "MB"; 
+    src: url("font/MB.ttf");
+}
+@font-face {
+    font-family: "ML"; 
+    src: url("font/ML.ttf");
+}
+@font-face {
+    font-family: "MT"; 
+    src: url("font/MT.ttf");
+}
+
+* {
+    margin: 0 auto;
+    font-family: MM;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-list a:hover {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+.menu{
+    list-style-type: none;
+    margin-right: 150px;
+    margin-top: -5px;
+    float:right;   
+}
+.menu li { 
+    display: inline;
+    padding-left: 15px;
+}
+
+
+body, html{
+    height: 1500px;
 }
 
 .head1{
@@ -58,7 +106,7 @@ a {
     
 }
 
-.mua{
+.horor{
     font-size: 62px;
     font-family: "mt";
     margin-top: 250px;
@@ -70,123 +118,31 @@ a {
     src: url("font/MT.ttf")
 }
 
-
-.may{
-    height: 100px;
-    margin-top: 100px;
-    margin-left: 100px;
-    word-spacing: 50px;
-}
-
-.img2{
-    height: 370px;
-    width: 370px;
-    float: left;
-    padding: 10px;
-    border: 5px;
-}
-
-.block_one{
-    height: 1600px;
-    margin-top: 50px;
-    float: left;
-    clear: left;
-    margin-left: 90px;
-    
-}
-
-.imag12{
-    height: 370px;
-    width: 370px;
-    float: left;
-    padding: 10px;
-    border: 5px;
-     
-    
-}
-
-.one_12{
-     margin-top: 30px;
-    float: left;
-    clear: left;
-    margin-left: 100px;
-    margin-bottom: 200px;
-}
-
-.two{
-    width: 1366px;
-    height: 683px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.gh{
-    float: left;
-    width: 50%;
-    height: 688px;
-    background-image: url(img/77.png) 
-}
-.two_cont2{
-    float: right;
-    width: 50%;
-    height: 683px;
-    background-image: url(img/88.png) 
-}
-.cont2{
-    padding: 60px 98px;
-}
-
-.left_cont2{
-    height: 58px;
-    width: 470px;
-    padding: 0px 52px;
-    margin-top: 192px;
-}
-.color_blue{
-    color: #1E88E5;
-    font-size: 18px;
-    letter-spacing: 2px;
-}
-.fishnet2{
-    color: #212121;
-    font-size: 36px;
-    margin: 10px -3px;
-}
-.text_two{
-    margin-top: 18px;
-    color: #6C6C6C;
-    font-size: 14px;
-}
-.button2{
-    margin-top: 26px;
-    padding: 10px 0;
-    background-color: white;
-    width: 212px;
-    height: 19px;
-    border-radius: 22.5px;
-    border: 1px solid #c4c4c4;
-}
-.button2 p{
-    margin: 0;
+.one{
+    margin: 0 98px;
     text-align: center;
-    font-size: 18px;
-    color: #6C6C6C;
-    padding-top: -30px;
-    letter-spacing: 2px;
-}
-.kl{
-   
-    width: 9px;
-    height: 14px;
-    background-repeat: no-repeat;
-    background-size: 1366px 800px;
-     margin: auto;
-    padding: 45px 45px 0px 45px;
 }
 
+.one_cont{
+    height: 500px;
+    margin-left: 98px;
+}
+
+.horor1{
+    padding-top: 60px;
+    width: 330px;
+    height: 310px;
+    outline: 1px solid #9C9C9C;
+    margin-top: 70px;
+    float: left;
+}
+
+.color{
+    color:black;
+    font-weight: bold;
+}
 
 .mya{
-    margin-top: 1550px;
     background-color: #F7F7F7;
     width: 1366px;
     height: 384px;
@@ -279,3 +235,4 @@ a {
     color: #6C6C6C;
     font-family: "MB"
 }
+

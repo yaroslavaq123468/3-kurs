@@ -1,10 +1,28 @@
-*{
-    margin: 0
 
+@font-face {
+    font-family: "MM"; 
+    src: url("font/MM.ttf");
+}
+@font-face {
+    font-family: "MB"; 
+    src: url("font/MB.ttf");
+}
+@font-face {
+    font-family: "ML"; 
+    src: url("font/ML.ttf");
+}
+@font-face {
+    font-family: "MT"; 
+    src: url("font/MT.ttf");
+}
+
+*{
+    margin: 0 auto;
+    font-family: MM;
 }
 
 body{
-    height: 1307px;
+    height: 2000px;;
 }
 
 .head1{
@@ -67,10 +85,18 @@ a {
     padding-top: 30px; 
 }
 
+.may span:hover{
+    border-bottom: 3px solid #212121;
+}
+
 .fot21{
     float: left;
 }
-
+.container{
+    width: 1366px;
+    height: 2000px;
+    margin: 0 auto;
+}
 .fot{
     width: 570px;
     height: 570px;
@@ -89,6 +115,30 @@ a {
 .one1{
     margin-left: 240px;
     
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-list a:hover {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+.menu{
+    list-style-type: none;
+    margin-right: 150px;
+    margin-top: -5px;
+    float:right;   
+}
+.menu li { 
+    display: inline;
+    padding-left: 15px;
 }
 
 .one_15{
@@ -136,13 +186,18 @@ a {
 }
 
 .image{
-      margin-top: 300px;
+    margin-top: 50px;
+    width: 1200px;
+    height: 400px;
+}
+
+.fot_one{
+    height: 570px;
 }
 
 
-
 .mya{
-    margin-top: 1510px;
+    margin-top: 700px;
     background-color: #F7F7F7;
     width: 1366px;
     height: 384px;
