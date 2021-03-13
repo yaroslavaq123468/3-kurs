@@ -1,0 +1,238 @@
+.container {
+    width: 1366px;
+    height: 1400px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "MM"; 
+    src: url("font/MM.ttf");
+}
+@font-face {
+    font-family: "MB"; 
+    src: url("font/MB.ttf");
+}
+@font-face {
+    font-family: "ML"; 
+    src: url("font/ML.ttf");
+}
+@font-face {
+    font-family: "MT"; 
+    src: url("font/MT.ttf");
+}
+
+* {
+    margin: 0 auto;
+    font-family: MM;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-list a:hover {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+.menu{
+    list-style-type: none;
+    margin-right: 150px;
+    margin-top: -5px;
+    float:right;   
+}
+.menu li { 
+    display: inline;
+    padding-left: 15px;
+}
+
+
+body, html{
+    height: 1500px;
+}
+
+.head1{
+    height: 21px;
+    width: 184px;
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.head{
+    margin: 0px auto;
+    padding-left: 98px;
+    padding-right: 98px;
+    padding-top: 30px;
+    background: #F5F5F5;
+    height: 366px;
+    width: 1160px;
+}
+
+ ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ li{
+    float:left;
+    padding-right: 30px;
+}
+
+
+.head2{
+    float: right;
+    margin-top: 5px;
+}
+
+
+.head3{
+    padding: 0;
+    width: 21px;
+    height: 22px;
+    background-image:url(img/2.png);
+    background-repeat: no-repeat;
+    
+}
+
+.horor{
+    font-size: 62px;
+    font-family: "mt";
+    margin-top: 250px;
+}
+
+
+@font-face{
+    font-family: "mt";
+    src: url("font/MT.ttf")
+}
+
+.one{
+    margin: 0 98px;
+    text-align: center;
+}
+
+.one_cont{
+    height: 500px;
+    margin-left: 98px;
+}
+
+.horor1{
+    padding-top: 60px;
+    width: 330px;
+    height: 310px;
+    outline: 1px solid #9C9C9C;
+    margin-top: 70px;
+    float: left;
+}
+
+.color{
+    color:black;
+    font-weight: bold;
+}
+
+.mya{
+    background-color: #F7F7F7;
+    width: 1366px;
+    height: 384px;
+}
+.lilo{
+    padding: 115px 98px;
+    width: 1170px;
+    height: 230px;
+}
+.lilo1{
+    width: 1170px;
+    height: 163px;
+    margin-bottom: 60px;
+}
+.lilo2{
+    float: left;
+    width: 270px;
+    height: 163px;
+    margin-right: 30px;
+}
+.liza{
+    float: left;
+    width: 470px;
+    height: 163px;
+    margin-right: 30px;
+}
+.kol1{
+    float: left;
+    width: 370px;
+    height: 163px;
+}
+.lilo3{
+    color: #6C6C6C;
+    font-size: 18px;
+    font-family: "MB"
+}
+
+.masa{
+    float: left;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-family: "ML"
+    
+}
+.lia{
+    float: right;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-family: "ML"
+}
+.te23{
+    color: #212121;
+    font-size: 14px;
+    font-family: "ML"
+}
+.mail{
+    height: 22px;
+    width: 370px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #D9DEE1; 
+}
+.oooo{
+    color: #212121;
+    font-size: 14px;
+    font-family: "ML"
+}
+
+.fo1{
+    float: left;
+    width: 45%;
+    height: 14px;
+    padding-top: 15px;
+}
+.fo1 p {
+    font-size: 12px;
+    color: #6C6C6C;
+    font-family: "MB"
+}
+
+.fo2{
+    float: right;
+    width: 45%;
+    height: 14px;
+    padding-top: 15px;
+}
+.fo2 p {
+    text-align: right;
+    font-size: 12px;
+    color: #6C6C6C;
+    font-family: "MB"
+}
+
