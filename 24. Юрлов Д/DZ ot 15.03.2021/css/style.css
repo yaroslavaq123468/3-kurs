@@ -1,0 +1,8 @@
+.figure:hover{ 
+    transform: rotate(360deg);
+    transition: 2s;
+}
+.figure1:hover{ 
+    transform: scale(2);
+    transition: 1s;
+}
