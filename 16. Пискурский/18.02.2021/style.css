@@ -1,0 +1,86 @@
+
+table {
+    border: 5px solid red;
+    border-radius: 10px;
+    border-top: 10px solid yellow;
+    border-bottom-right-radius: 0px;
+    border-spacing: 20px;
+    
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    
+    background-color: black;
+    color: white;
+    
+    width: 400px;
+    height: 200px;
+}
+
+td {
+    border: 5px solid lime;
+    
+    text-align: center;
+    vertical-align: top;
+}
+
+#text_img {
+    border: 10px solid grey;
+    text-align: center;
+    color: white;
+    
+    background-image: url(img/b.jpg);
+    background-position: center;
+}
+
+.menu li {
+    list-style-type: none;
+    
+    text-decoration: none;
+    
+    border: 3px solid black;
+    color: black;
+    
+    width: 200px;
+    
+    font-size: 20px;
+}
+
+.menu li:hover {
+    background-color: black;
+    color: white;
+}
+
+.menu li:active {
+    background-color: red;
+}
+
+.menu li:nth-child(2n):before {
+    content: 'NEW!';
+    color: yellow;
+}
+
+.menu li:hover:after {
+    content: '>>>';
+    color: lime;
+}
+
+.menu > li {
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    list-style-type: none;
+}
+
+.menu  li {
+    display: inline-block;
+    width: 75px;
+}
+
+.menu .menu2 {
+    display: none;
+}
+
+.menu li:hover .menu2 {
+    display: block;
+}
