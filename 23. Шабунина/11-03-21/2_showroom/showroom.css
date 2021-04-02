@@ -1,0 +1,232 @@
+html {
+	overflow-x: visible;
+}
+
+.containerone_showroom .background {
+	background-color: #fff;
+	height: calc(120px - 63px);
+
+}
+
+.containerone_showroom .background .slyder{
+	margin: 0;
+}
+
+.containerone_showroom .background .slyder .header{
+	margin: 0;
+	height: calc(120px - 63px);
+}
+
+.containertwo_showroom{
+	width: 100%;
+	height: 70px;
+	background: #f4f4f4;
+}
+
+.containertwo_showroom .header a {
+	color: #6c6c6c;
+	font-weight: 700;
+	font-size: 18px;
+	/* Чтобы слова не слипались*/
+	letter-spacing: 0em;
+}
+.containertwo_showroom .header a.menu-linkk{
+	color: #6c6c6c;
+	font-weight: 700;
+	font-size: 18px;
+	padding-bottom: 8px;
+}
+
+.containertwo_showroom .header{
+	background: #f4f4f4
+		;
+	margin-top: 0;
+	height: 46px;
+	width: 100%;
+	padding: 24px 0 0 0;
+}	
+
+.containertwo_showroom .header ul{
+	float: none;
+	width: 683px;
+	margin-left: calc(50% - 300px);
+}
+
+.containertwo_showroom .header a.menuu-link{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 17.99px;
+	color: #212121;
+
+}
+
+.containertwo_showroom .header a.menu-link:hover::after{
+	width: 0;
+}
+
+.containertwo_showroom .header .menu-list:nth-child(1){
+	width: 75px;
+}
+.containertwo_showroom .header .menu-list:nth-child(2){
+	width: 93px;
+}
+.containertwo_showroom .header .menu-list:nth-child(3){
+	width: 103px;
+}
+.containertwo_showroom .header .menu-list:nth-child(4){
+	width: 144px;
+}
+.containertwo_showroom .header .menu-list:nth-child(5){
+	width: 123px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.product-slider-fishnet {
+	padding: 72px 0 260px 100px;
+	height: 723px;
+	width: 1266px;
+}
+
+.product-slider {
+	height: 650px;
+	width: 570px;
+	float: left;
+
+}
+
+.fishnet {
+	height: 650px;
+	width: 570px;
+	float: left;
+	margin-left: 30px;
+}
+
+.big-photo {
+	height: 570px;
+	width: 570px;
+	background-image: url(../IMG/product-20.jpg);
+}
+
+.underline {
+	height: 70px;
+	width: 570px;
+}
+
+.underline img:first-child{
+	margin-left: 185px;
+}
+
+.fishnet-cheir  {
+	width: 569.79px;
+	height: 77.89px;
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 35.98px;
+	line-height: 107px;
+	text-align: center;
+	color: #212121;
+}
+
+.hot-deal {
+	width: 569.79px;
+	height: 42.75px;
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	line-height: 43px;
+	text-align: center;
+	color: #F44336;
+}
+.price {
+	width: 569.79px;
+	height: 107.63px;
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+	color: #212121;
+}
+
+.price span {
+	font-size: 72px;
+}
+
+.fishnet .text{
+	width: 569.79px;
+	height: 50px;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	line-height: 24px;
+	text-align: left;
+	color: #212121;
+
+}
+
+.fishnet button {
+	background: #f44336;
+	border-radius:35px;
+	border-color: #fff;
+	width: 510px;
+	height: 70px;
+	font-weight:700;
+	font-size: 18px;
+	color:#000;
+	box-shadow: 4px 4px 10px -4px black;
+	border: 0px;
+	letter-spacing: 0.2em;
+	position: relative;
+	margin: 30px;
+	margin-left: 40px;
+}
+
+.containertwo_showroom .mda{
+	height: 500px;
+	width: 1170px;
+	padding-left: 100px;
+}
+
+.fishnet .icon {
+	width: 7px;
+    height: 12px;
+    top: 29px;
+    left: 327px;
+	background-image: url(../IMG/arrow.png);
+	position: absolute;
+}
+
+.containertwo_showroom .container3_3{
+	margin-right: 0;
+	width: 1170px;
+	height: 370px;
+}
+
+.containertwo_showroom .container2_2_2{
+	height: 82px;
+}
+
+.containertwo_showroom .container2_2_2 .right{
+	width: 574px;
+}
+
+.containertwo_showroom {
+	background: #fff;
+	width: 100%;
+	height: 1800px;
+		
+}
+.containertwo_showroom footer{
+     background: #f4f4f4;
+	
+	
+}

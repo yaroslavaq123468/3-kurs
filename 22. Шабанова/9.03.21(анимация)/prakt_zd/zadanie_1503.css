@@ -1,0 +1,21 @@
+.GORIT {
+    width: 650px;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.GORIT :hover { -moz-transform: scale(1.15); -webkit-transform: scale(1.15); -o-transform: scale(1.15); -ms-transform: scale(1.15); transform: scale(1.15); }
+
+.glaza {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.glaza :hover { -moz-transform: rotate(180deg); -webkit-transform: rotate(180deg); -o-transform: rotate(180deg); -ms-transform: rotate(180deg); transform: rotate(180deg); }
+
+
+
+
+
+
+
+
+
